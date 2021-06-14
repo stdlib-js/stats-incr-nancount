@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-incr-nancount",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Compute a count incrementally, ignoring NaN values.",
   "license": "Apache-2.0",
   "author": {
