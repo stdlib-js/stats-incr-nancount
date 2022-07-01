@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2020 The Stdlib Authors.
@@ -16,36 +16,41 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 2.0
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
 
 /**
-* Compute a count incrementally, ignoring `NaN` values.
+* If provided a value, returns an updated count; otherwise, returns the current count.
 *
-* @module @stdlib/stats-incr-nancount
+* @param x - value
+* @returns count
+*/
+type accumulator = ( x?: number ) => number | null;
+
+/**
+* Returns an accumulator function which incrementally computes a count, ignoring `NaN` values.
+*
+* @returns accumulator function
 *
 * @example
-* var incrnancount = require( '@stdlib/stats-incr-nancount' );
-*
 * var accumulator = incrnancount();
 *
-* var nancount = accumulator();
-* // returns 0
+* var v = accumulator();
+* // returns null
 *
-* nancount = accumulator( 2.0 );
+* v = accumulator( 2.0 );
 * // returns 1
 *
-* nancount = accumulator( -5.0 );
+* v = accumulator( -5.0 );
 * // returns 2
 *
-* nancount = accumulator();
+* v = accumulator();
 * // returns 2
 */
-
-// MODULES //
-
-var incrnancount = require( './main.js' );
+declare function incrnancount(): accumulator;
 
 
 // EXPORTS //
 
-module.exports = incrnancount;
+export = incrnancount;
