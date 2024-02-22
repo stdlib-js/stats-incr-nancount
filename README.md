@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import incrnancount from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nancount@esm/index.mjs';
+import incrnancount from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nancount@v0.2.1-esm/index.mjs';
 ```
 
 #### incrnancount()
@@ -93,7 +93,7 @@ count = accumulator();
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import incrnancount from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nancount@esm/index.mjs';
+import incrnancount from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nancount@v0.2.1-esm/index.mjs';
 
 var accumulator;
 var v;
