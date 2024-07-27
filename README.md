@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import incrnancount from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nancount@deno/mod.js';
+import incrnancount from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nancount@v0.2.2-deno/mod.js';
 ```
 
 #### incrnancount()
@@ -88,7 +88,7 @@ count = accumulator();
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import incrnancount from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nancount@deno/mod.js';
+import incrnancount from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nancount@v0.2.2-deno/mod.js';
 
 var accumulator;
 var v;
